@@ -1,0 +1,22 @@
+artifact_path: file:D:/Samsung/MLOps Task/artifacts/1/models/m-74d6e78f1d5147619c90995cc762d09c/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.3
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.17.0
+model_id: m-74d6e78f1d5147619c90995cc762d09c
+model_size_bytes: 277193
+model_uuid: m-74d6e78f1d5147619c90995cc762d09c
+prompts: null
+run_id: 9e0195fdc47b4aeb8c60c415c064658a
+utc_time_created: '2026-10-08 19:59:25.161221'

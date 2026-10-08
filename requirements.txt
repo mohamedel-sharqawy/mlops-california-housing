@@ -1,0 +1,5 @@
+mlflow==3.17.0
+xgboost==3.4.1
+scikit-learn==1.9.1
+pandas
+numpy
